@@ -1,0 +1,5 @@
+matplotlib
+python-csv
+jsonlib
+pandas
+apify-client
