@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def visualize(value_received):
     value_received = "csv\\"+value_received
     # Initialize dictionaries to store data for each day
-    data = {'Sud': [], 'Mo': [], 'Tu': [], 'We': [], 'Th': [], 'Fr': [], 'Sa': []}
+    data = {'Su': [], 'Mo': [], 'Tu': [], 'We': [], 'Th': [], 'Fr': [], 'Sa': []}
 
     # Open the CSV file and read data into the dictionaries
     with open(value_received, 'r') as file:
