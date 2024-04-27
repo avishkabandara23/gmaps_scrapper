@@ -2,7 +2,7 @@ import os
 import json
 from apify_client import ApifyClient
 def scraper(value_received):
-    apify_client = ApifyClient('apify_api_RQ3wPgtHu1getp8f0XrqvQSLkDpi8k0Ma51g')
+    apify_client = ApifyClient('<YOUR API CODE>')
 
     run_input = {
         "deeperCityScrape": False,
